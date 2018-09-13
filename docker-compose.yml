@@ -1,0 +1,6 @@
+version: '3'
+services:
+  pwn:
+    build: ./docker_env/
+    ports:
+     - "9999:9999"
